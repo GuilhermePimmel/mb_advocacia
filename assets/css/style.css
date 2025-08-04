@@ -150,6 +150,10 @@ header nav ul li a {
     position: relative;
 }
 
+header nav ul li a:hover {
+    color: #FFFFFF; /* Garante que a cor do texto seja branca no hover */
+}
+
 header nav ul li a::after {
     content: '';
     position: absolute;

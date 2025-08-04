@@ -40,9 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-// =====================================================================
-// LÓGICA PHP PARA EXIBIR MENSAGEM DE STATUS (DEVE ESTAR AQUI)
-// =====================================================================
 if (isset($_GET['status'])) {
     if ($_GET['status'] == 'sucesso') {
         $status_mensagem = '<p class="success-message">Sua mensagem foi enviada com sucesso!</p>';
