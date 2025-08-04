@@ -109,6 +109,10 @@ a:hover {
     text-align: center;
 }
 
+.btn-primary:hover {
+    color: #E0E0E0;
+}
+
 /* --- HEADER --- */
 header {
     background-color: #000000; /* Preto para o cabeçalho */
@@ -505,4 +509,71 @@ footer p {
     .contact-form {
         padding: 20px;
     }
+}
+
+/* --- SEÇÃO EQUIPE --- */
+.team-section {
+    background-color: #f9f9f9;
+    text-align: left; /* Anula o 'text-align: center' geral para a seção */
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.team-member {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; /* Usa flexbox para alinhar a imagem e o texto */
+    align-items: center; /* Centraliza verticalmente a imagem e o texto */
+    gap: 20px; /* Espaçamento entre a foto e o texto */
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.member-info {
+    flex: 1; /* Permite que o container de texto ocupe o espaço restante */
+    text-align: left;
+}
+
+.team-member h3 {
+    font-size: 1.3em;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.team-member .role {
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.team-member .description {
+    font-size: 0.95em;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+.team-member .description {
+    font-size: 0.95em;
+    color: #333333;
 }

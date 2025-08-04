@@ -80,6 +80,7 @@ if (isset($_GET['status'])) {
                     <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#areas-atuacao">Áreas de Atuação</a></li>
                     <li><a href="#mapa">Nossos Escritórios</a></li>
+                    <li><a href="team.php">Nossa Equipe</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
